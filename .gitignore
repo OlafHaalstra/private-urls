@@ -1,3 +1,9 @@
+# Configuration file
+*.ini
+
+# Database file
+db.sqlite
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

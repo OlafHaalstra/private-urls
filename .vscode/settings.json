@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder:private-urls}/app/db.sqlite",
+            "driver": "SQLite",
+            "name": "SQLite",
+            "previewLimit": 50
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask"
+    ]
+}
