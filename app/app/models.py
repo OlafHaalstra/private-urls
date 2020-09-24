@@ -14,7 +14,7 @@ class User(UserMixin, db.Model):
 
 class Link(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    description = db.Column(db.String(100), default='Nothing')
+    description = db.Column(db.String(100))
     suffix = db.Column(db.String(6), unique=True)
     views = db.relationship('View', backref=db.backref('views', lazy=True))
 
